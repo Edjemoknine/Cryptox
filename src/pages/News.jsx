@@ -61,13 +61,13 @@ const News = ({ simplefied }) => {
                   <Card hoverable className="news_card">
                     <a href={news.url} target="_blank" rel="noreferrer">
                       <div className="news_image_container">
-                        <Typography.Title className="new_title" level={4}>
+                        <Typography.Title className="new_title flex-1 line-clamp-2" level={4}>
                           {news.title.substring(0, 100)}...
                         </Typography.Title>
                         <img
                           src={data.knowledge_panel?.image?.url || demoImage}
                           alt="imae"
-                          className="news_Image"
+                          className="news_Image w-16 h-16 object-contain"
                         />
                       </div>
                       <p>{news.description.substring(0, 200)}</p>
