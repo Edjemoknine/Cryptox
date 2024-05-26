@@ -28,9 +28,9 @@ const Navbar = () => {
           <div className={location.pathname === "/crypto" && " active"}>
             <Link to={"/crypto"}>Crypto</Link>
           </div>
-          <div className={location.pathname === "/exchanges" && " active"}>
+{/*           <div className={location.pathname === "/exchanges" && " active"}>
             <Link to={"/exchanges"}>Exchanges</Link>
-          </div>
+          </div> */}
           <div className={location.pathname === "/news" && " active"}>
             <Link to={"/news"}>News</Link>
           </div>
