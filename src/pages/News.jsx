@@ -60,8 +60,8 @@ const News = ({ simplefied }) => {
                 <Col key={i} xs={24} sm={12} lg={8}>
                   <Card hoverable className="news_card">
                     <a href={news.url} target="_blank" rel="noreferrer">
-                      <div className="news_image_container">
-                        <Typography.Title className="new_title flex-1 line-clamp-2" level={4}>
+                      <div className="news_image_container mb-2">
+                        <Typography.Title className="new_title text-left flex-1 line-clamp-2" level={4}>
                           {news.title.substring(0, 100)}...
                         </Typography.Title>
                         <img
