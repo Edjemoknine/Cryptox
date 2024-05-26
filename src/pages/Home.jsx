@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container mx-auto hero h-[550px] grid md:grid-cols-2 ">
+      <div className="container mx-auto hero h-[750px] grid md:grid-cols-2 ">
         <div className="text  flex flex-col justify-center gap-3 items-center md:items-start  ">
           <h1 className="md:text-5xl text-3xl capitalize text-center md:text-start md:leading-snug max-w-xl text-black font-bold ">
             Cryptocurrencies and Blockchain related businesses.
